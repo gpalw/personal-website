@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wen Liang · Software Engineer</title>
+  <meta name="description" content="Portfolio of Wen Liang — Java/Python backend engineer (Spring Boot, AWS, CI/CD)." />
+  <meta property="og:title" content="Wen Liang · Software Engineer" />
+  <meta property="og:description" content="Java/Python backend engineer — projects, links and contact." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="text-lg font-semibold">Wen Liang</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#projects" class="hover:text-sky-600">Projects</a>
+        <a href="#about" class="hover:text-sky-600">About</a>
+        <a href="#contact" class="hover:text-sky-600">Contact</a>
+      </nav>
+      <a href="#contact" class="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium bg-sky-600 text-white shadow hover:bg-sky-700">Get in touch</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative pt-16 pb-12">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-sky-50 to-transparent"></div>
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-8 items-center">
+      <div class="md:col-span-2">
+        <h1 class="text-3xl md:text-5xl font-bold tracking-tight text-slate-900">Java / Python Backend Engineer</h1>
+        <p class="mt-4 text-slate-700 text-lg leading-relaxed">
+          I build reliable services with <span class="font-semibold">Spring Boot</span>, <span class="font-semibold">AWS</span>, Docker and CI/CD. Recently completed a Master's project delivering an end‑to‑end forecasting platform for SMEs.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#projects" class="rounded-xl px-4 py-2 bg-slate-900 text-white hover:bg-slate-800">See projects</a>
+          <a href="https://github.com/gpalw" class="rounded-xl px-4 py-2 border border-slate-300 hover:bg-white" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/wen-liang-05192127b/" class="rounded-xl px-4 py-2 border border-slate-300 hover:bg-white" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="md:justify-self-end">
+        <div class="rounded-2xl p-4 bg-white shadow-lg border border-slate-200">
+          <ul class="text-sm text-slate-700 leading-7">
+            <li>Spring Boot · Spring Cloud</li>
+            <li>AWS (EC2, S3, ECR)</li>
+            <li>Docker · Nginx · CI/CD</li>
+            <li>MySQL · PostgreSQL · Redis</li>
+            <li>OpenAPI · OAuth2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-12 bg-white border-y border-slate-200">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl font-semibold">Highlighted Projects</h2>
+        <a href="https://github.com/gpalw" target="_blank" class="text-sm text-sky-700 hover:underline">More on GitHub →</a>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold text-slate-900">SME Forecasting Platform</h3>
+          <p class="mt-2 text-sm text-slate-700">End‑to‑end system on AWS: Java Spring Boot API + Python FastAPI model service. Dockerized, OpenAPI docs, basic CI/CD.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">Spring Boot</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">FastAPI</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">AWS</span>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold text-slate-900">Low‑code Automation Platform</h3>
+          <p class="mt-2 text-sm text-slate-700">Designed workflow engine, integrated JavaPoet for code generation, reduced setup time by 80%.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">Java</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">MySQL</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">Docker</span>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold text-slate-900">CRM Refactor</h3>
+          <p class="mt-2 text-sm text-slate-700">Legacy upgrade improved stability and cut errors by 35%. Added tests and deployment hygiene.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">Spring MVC</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">PostgreSQL</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 border">CI/CD</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-12">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">About</h2>
+      <p class="mt-3 text-slate-700 leading-7">
+        I'm a backend‑leaning software engineer with 8+ years of experience. I enjoy designing clean APIs, automating testing, and making deployments boring. Outside code, I share Auckland family life and tech learning on social media.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 bg-slate-900 text-slate-100">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Contact</h2>
+      <p class="mt-3 opacity-90">Open‑work visa (to Aug 2028). Based in Auckland.</p>
+      <div class="mt-6 grid sm:grid-cols-2 gap-4">
+        <a href="mailto:lwxyq084891@gmail.com" class="rounded-xl bg-white text-slate-900 px-4 py-3 font-medium text-center">lwxyq084891@gmail.com</a>
+        <a href="tel:+64274927749" class="rounded-xl border border-slate-700 px-4 py-3 font-medium text-center">+64 27 492 7749</a>
+      </div>
+      <p class="mt-6 text-sm opacity-75">© <span id="year"></span> Wen Liang</p>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
